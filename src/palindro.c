@@ -14,8 +14,8 @@ int Palindro(char *cadena) {
 
 int main(void) {
     char cadena[100];
-    printf("\nIntroduce la palabra");
+    printf("\nIntroduce la palabra\n");
     gets(cadena);
-    printf("La palabra %s %s palindroma", cadena, (Palindro(cadena)) ? "es" : "no es");
+    printf("La palabra %s %s palindroma.\n", cadena, (Palindro(cadena)) ? "es" : "no es");
     return 0;
 }
